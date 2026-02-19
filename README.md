@@ -48,41 +48,31 @@ Memiliki arsitektur **clean, modular, dan developer-friendly**, serta mendukung 
 apt update -y && apt upgrade -y && apt install git make -y
 ```
 
-### 2. Clone repository
+### 2. Clone the repository
 
 ```bash
 git clone https://github.com/dcodemaxz/vikaru-bot.git vikaru
 ```
 
-### 3. Install dependencies (first time)
+### 3. Enter the project directory
+
+```bash
+cd vikaru # or "cd vikaru-bot"
+```
+
+### 4. Install the dependencies (first time)
 
 ```bash
 make install
 ```
 
-</details>
-
----
-
-## 🚀 Getting Started
-
-<details open>
-
-### 1. Enter the project directory
-
-```bash
-cd vikaru
-```
-
-### 2. Run script
+### 5. Run script
 
 ```bash
 make run
 ```
 
 </details>
-
----
 
 ## 🔐 Generate SSH Key ( Verifikasi )
 
