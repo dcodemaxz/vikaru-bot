@@ -42,7 +42,7 @@ Memiliki arsitektur **clean, modular, dan developer-friendly**, serta mendukung 
 
 <details open>
 
-### 1. Update environment ( Debian / Ubuntu / VPS )
+### 1. Update debian environment ( Linux / VPS / Termux)
 
 ```bash
 apt update -y && apt upgrade -y && apt install git make -y
@@ -57,7 +57,7 @@ git clone https://github.com/dcodemaxz/vikaru-bot.git vikaru
 ### 3. Enter the project directory
 
 ```bash
-cd vikaru # or "cd vikaru-bot"
+cd vikaru # atau "cd vikaru-bot"
 ```
 
 ### 4. Install the dependencies (first time)
